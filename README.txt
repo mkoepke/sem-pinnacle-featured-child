@@ -1,21 +1,37 @@
-MINIMUM PRO THEME
-http://my.studiopress.com/themes/minimum/
+=== Semiologic Pinnacle Child theme ===
+Contributors: Denis-de-Bernardy, Mike_Koepke
+Donate link: http://www.semiologic.com/partners/
+Tags: semiologic, wordpress theme
+Requires at least: 3.9
+Tested up to: 4.1
+Stable tag: trunk
 
-INSTALL
-1. Upload the Minimum Pro theme folder via FTP to your wp-content/themes/ directory. (The Genesis parent theme needs to be in the wp-content/themes/ directory as well.)
-2. Go to your WordPress dashboard and select Appearance.
-3. Activate the Minimum Pro theme.
-4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking. To set up the theme like the demo, please visit http://my.studiopress.com/setup/minimum-theme/.
+The Semiologic Pinnacle Child theme for Wordpress
 
-WIDGET AREAS
-Primary Sidebar - This is the primary sidebar if you are using the Content/Sidebar Site Layout option.
-Header Right - This is the widgeted area that appears at the top right of the header. If it is active then Genesis style will follow the Partial Header style otherwise it will follow the Full Image Header Style, if image header is selected. 
-Site Tagline Right - This is the site tagline right section.
-Home Featured 1 - This is the home featured 1 section.
-Home Featured 2 - This is the home featured 2 section.
-Home Featured 3 - This is the home featured 3 section.
-Home Featured 4 - This is the home featured 4 section.
-After Entry - This is the widget that appears after the entry on single posts.
 
-SUPPORT
-Please visit http://my.studiopress.com/help/ for theme support.
+== Description ==
+
+A child theme for the Semiologic Pinnacle themes.  This child theme supports 4 featured panels on the site's homepage.
+
+
+= Help Me! =
+
+The [Semiologic forum](http://forum.semiologic.com) is the best place to report issues.
+
+
+== Installation ==
+
+1. Upload the themes folder to the `/wp-content/themes/` directory
+2. Activate the theme through the 'Themes' menu in WordPress
+
+If you previously had been using the Semiologic Reloaded theme, that widget configuration will be cloned over.
+
+
+== Change Log ==
+
+= 1.0 =
+
+- Initial Release
+- 4 Featured Panels for front page.
+
+
