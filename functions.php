@@ -39,7 +39,7 @@ function add_home_featured_panels() {
 			array(
 				'id' => $panel_id,
 				'name' => $panel_label,
-				'before_widget' => '<aside class="widget %1$s %2$s body_widget">' . "\n",
+				'before_widget' => '<aside id="%1$s" class="widget %2$s body_widget">' . "\n",
 				'after_widget' => '</aside><!-- body_widget -->' . "\n",
 				'before_title' => '<h2>',
 				'after_title' => '</h2>' . "\n",
