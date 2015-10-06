@@ -4,25 +4,21 @@ global $sem_theme_options;
 
 $active_layout = 'mmm';
 
-
-
 function sem_pinnacle_child_active_layout( $layout ) {
 	return 'mmm';
 }
-
 
 //* filter active layout for this page
 add_filter( 'active_layout', 'sem_pinnacle_child_active_layout' );
 
 
-
 # show header
-include sem_path . '/header.php';
+get_header();
 
 	if ( is_active_sidebar( 'home-featured-1' ) || is_active_sidebar( 'home-featured-2' )
 		|| is_active_sidebar( 'home-featured-3' ) || is_active_sidebar( 'home-featured-4' ) ) {
 
-		echo '<div id="home-featured" class="body_section">' . "\n";
+		echo '<div id="home-featured" class="body_container">' . "\n";
 		for( $i = 1; $i <= 4; $i++ ) {
 			$panel_name = 'home-featured-' . $i;
 
@@ -38,4 +34,4 @@ include sem_path . '/header.php';
 
 
 # show footer
-include sem_path . '/footer.php';
+get_footer();

@@ -2,7 +2,7 @@
 Contributors: Mike_Koepke
 Tags: semiologic, wordpress theme, semiologic pinnacle
 Requires at least: 3.9
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 
 The Semiologic Pinnacle Featured Child theme for WordPress
@@ -27,6 +27,11 @@ As this is a child theme you must have the Semiologic Pinnacle theme installed
 
 
 == Change Log ==
+
+= 1.0.2 =
+
+- Change: Use standard WP calls to get_header and get_footer front_page template file
+- Change: Match parent body_section change to body_container in 2.5
 
 = 1.0.1 =
 
